@@ -1,0 +1,5 @@
+#Default
+default: --no-source --color --format pretty
+
+#Regressão
+regressao: -t @done -f html -o regressao_html_report.html
